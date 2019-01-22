@@ -1,0 +1,65 @@
+!ru.selenium.model.User
+login: "ACHIV_SUC_AUTH_HEAD"
+password: "ACHIV_SUC_AUTH_HEAD1"
+email: "ACHIV_SUC_AUTH_HEAD@insorg-mail.info"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_AUTH_AUTH"
+password: "ACHIV_SUC_AUTH_AUTH1"
+email: "ACHIV_SUC_AUTH_AUTH@insorg-mail.info"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_AUTH_CAPC"
+password: "ACHIV_SUC_AUTH_CAPC1"
+email: "ACHIV_SUC_AUTH_CAPC@insorg-mail.info"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_REG_PHONE"
+password: "ACHIV_SUC_REG_PHONE1"
+numberPhone: "964-875-83-32"
+checkEmail: false
+agreement: true
+phoneCode: "+7"
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_REG_GMAIL"
+password: "ACHIV_SUC_REG_GMAIL1"
+email: "achivgmail@gmail.com"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_REST_MAIL"
+password: "ACHIV_SUC_REST_MAIL1"
+email: "achivgmail@insorg-mail.info"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_REST_PHON"
+password: "ACHIV_SUC_REST_PHON1"
+numberPhone:  "965-875-83-32"
+checkEmail: false
+agreement: true
+phoneCode: "+7"
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_ANKETA_S"
+password: "ACHIV_SUC_ANKETA_S1"
+email: "ACHIV_SUC_ANKETA_S@insorg-mail.info"
+checkEmail: true
+agreement: true
+---
+!ru.selenium.model.User
+login: "ACHIV_SUC_ANKETA_L"
+password: "ACHIV_SUC_ANKETA_L1"
+email: "ACHIV_SUC_ANKETA_L@insorg-mail.info"
+checkEmail: true
+agreement: true
+

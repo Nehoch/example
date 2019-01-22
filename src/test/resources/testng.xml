@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel tests" parallel="classes" thread-count="10">
+
+    <test name="Site">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regres"/>
+                <include name="all"/>
+
+
+            </run>
+        </groups>
+        <classes>
+
+
+            <class name="ru.selenium.tests.Site.AuthTests"/>
+            <class name="ru.selenium.tests.Site.RegTests"/>
+            <class name="ru.selenium.tests.Site.RestorePassTests"/>
+
+
+        </classes>
+    </test>
+</suite>
+
